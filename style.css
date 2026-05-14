@@ -191,7 +191,7 @@ section h2 {
 
 .contact-form textarea {
     resize: vertical;
-    min-height: 150px;
+    min-height: 10px;
 }
 
 .contact-form button {
@@ -202,4 +202,28 @@ section h2 {
     color: white;
     cursor: pointer;
 
+
+}
+
+.map-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 18px;
 }
