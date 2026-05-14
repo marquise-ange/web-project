@@ -174,3 +174,32 @@ section h2 {
 .team-card button:hover {
     background: #ddd;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 14px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact-form button {
+    width: fit-content;
+    border: none;
+    padding: 14px 28px;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+}
