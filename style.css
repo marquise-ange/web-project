@@ -214,17 +214,46 @@ section h2 {
 
 .map-image {
     width: 100%;
-    width: 100%;
     display: block;
 }
 
 
-.footer {
-    width: 100%;
+footer {
     background: black;
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 10px;
+
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero img {
+        height: 70vh;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .project-grid,
+    .teams-grid {
+        grid-template-columns: 1fr;
+
+    }
 
 }
